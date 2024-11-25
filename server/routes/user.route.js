@@ -18,7 +18,7 @@ router.get('/:id', (req, res, next) => {
     next();
 }, getUser);
 
-router.patch('/update/:id', updateUser);
-router.delete('/delete/:id', deleteUser);
+// router.patch('/update/:id', updateUser);
+// router.delete('/delete/:id', deleteUser);
 
 export default router;

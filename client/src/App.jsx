@@ -5,7 +5,6 @@ import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import { system } from "@chakra-ui/react/preset";
 
-import { Toaster } from 'react-hot-toast'
 
 export default function App() {
   return (
